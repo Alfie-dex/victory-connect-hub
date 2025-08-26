@@ -18,6 +18,7 @@ const Footer = () => {
             <ul className="space-y-2 text-primary-foreground/80">
               <li><a href="#home" className="hover:text-secondary transition-smooth">Home</a></li>
               <li><a href="#about" className="hover:text-secondary transition-smooth">About Us</a></li>
+              <li><a href="#ministers" className="hover:text-secondary transition-smooth">Ministers</a></li>
               <li><a href="#services" className="hover:text-secondary transition-smooth">Services</a></li>
               <li><a href="#gallery" className="hover:text-secondary transition-smooth">Gallery</a></li>
               <li><a href="#contact" className="hover:text-secondary transition-smooth">Contact</a></li>
