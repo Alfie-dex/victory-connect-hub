@@ -19,6 +19,7 @@ const Footer = () => {
               <li><a href="#home" className="hover:text-secondary transition-smooth">Home</a></li>
               <li><a href="#about" className="hover:text-secondary transition-smooth">About Us</a></li>
               <li><a href="#services" className="hover:text-secondary transition-smooth">Services</a></li>
+              <li><a href="#gallery" className="hover:text-secondary transition-smooth">Gallery</a></li>
               <li><a href="#contact" className="hover:text-secondary transition-smooth">Contact</a></li>
             </ul>
           </div>
@@ -26,10 +27,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p>123 Faith Avenue</p>
-              <p>Victory City, VC 12345</p>
+              <p>Malewa Rd, Komarock</p>
+              <p>Nairobi, Kenya</p>
               <p>(555) 123-PRAY</p>
-              <p>info@victorycentrechurch.org</p>
+              <p>victorycentres1994@gmail.com</p>
             </div>
           </div>
         </div>

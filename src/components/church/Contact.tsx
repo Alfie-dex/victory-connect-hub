@@ -24,8 +24,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-primary mb-2">Location</h3>
                   <p className="text-muted-foreground">
-                    123 Faith Avenue<br />
-                    Victory City, VC 12345
+                    Malewa Rd, Komarock<br />
+                    Nairobi, Kenya
                   </p>
                 </div>
               </div>
@@ -54,8 +54,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-primary mb-2">Email</h3>
                   <p className="text-muted-foreground">
-                    info@victorycentrechurch.org<br />
-                    pastor@victorycentrechurch.org
+                    victorycentres1994@gmail.com<br />
+                    info@victorycentrechurch.org
                   </p>
                 </div>
               </div>

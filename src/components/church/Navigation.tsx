@@ -26,6 +26,9 @@ const Navigation = () => {
             <a href="#services" className="text-foreground hover:text-primary transition-smooth">
               Services
             </a>
+            <a href="#gallery" className="text-foreground hover:text-primary transition-smooth">
+              Gallery
+            </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-smooth">
               Contact
             </a>

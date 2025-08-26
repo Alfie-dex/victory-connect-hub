@@ -43,7 +43,7 @@ const Services = () => {
               <div className="space-y-4 mb-6">
                 <div>
                   <p className="text-lg font-semibold text-foreground">Bible Study</p>
-                  <p className="text-muted-foreground">Wednesday 7:00 PM</p>
+                  <p className="text-muted-foreground">Tuesday 6:00 PM</p>
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-foreground">Prayer Meeting</p>
