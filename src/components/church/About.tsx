@@ -12,6 +12,9 @@ const About = () => {
             Victory Centre Church is a vibrant community of believers committed to knowing God, 
             growing in faith, and serving others with love and compassion.
           </p>
+           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Where Believers Are Made Disciples Indeed
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -49,9 +52,11 @@ const About = () => {
         <div className="text-center">
           <h3 className="text-2xl font-semibold text-primary mb-4">Our Mission</h3>
           <p className="text-lg text-foreground max-w-4xl mx-auto leading-relaxed">
-            "To be a place where people can meet Jesus, grow in their faith, and discover their purpose. 
-            We believe in the power of God's love to transform lives and communities, and we are committed 
-            to sharing that love with everyone we meet."
+            WE GO, WE WIN, WE DISCIPLE, WE SEND
+          </p>
+          <h3 className="text-2xl font-semibold text-primary mb-4">Our Vision</h3>
+          <p className="text-lg text-foreground max-w-4xl mx-auto leading-relaxed">
+            MAKING BELIEVERS DISCIPLES INDEED
           </p>
         </div>
       </div>
