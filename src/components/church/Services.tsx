@@ -51,7 +51,7 @@ const Services = () => {
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-foreground">Prayer Meeting</p>
-                  <p className="text-muted-foreground">Friday 6:30 PM</p>
+                  <p className="text-muted-foreground">Thursday 9:00 AM - 6:00 PM</p>
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
