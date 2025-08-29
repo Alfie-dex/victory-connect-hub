@@ -4,35 +4,24 @@ const Ministers = () => {
   const ministers = [
     {
       id: 1,
-      name: "Pastor John Kamau",
+      name: "Rev. Peter Kinuthia",
       title: "Senior Pastor",
-      description: "Pastor John has been leading Victory Centre Church with passion and dedication for over 15 years. His heart for evangelism and community building has transformed countless lives.",
-      email: "pastor.john@victorycentrechurch.org",
-      phone: "+254 712 345 678"
+      qualification: "BA Theology & Ministerial Studies"
     },
     {
       id: 2,
-      name: "Pastor Mary Wanjiku",
-      title: "Associate Pastor",
-      description: "Pastor Mary oversees our women's ministry and youth programs. Her compassionate leadership and biblical teaching have strengthened our church family.",
-      email: "pastor.mary@victorycentrechurch.org",
-      phone: "+254 723 456 789"
+      name: "Pastor Gloria Karanja",
+      title: "Associate Pastor"
     },
     {
       id: 3,
-      name: "Pastor David Mwangi",
-      title: "Youth Pastor",
-      description: "Pastor David leads our vibrant youth ministry, connecting with the next generation through relevant teaching and dynamic worship experiences.",
-      email: "pastor.david@victorycentrechurch.org",
-      phone: "+254 734 567 890"
+      name: "Eld. Steve",
+      title: "Elder"
     },
     {
       id: 4,
-      name: "Pastor Grace Njeri",
-      title: "Children's Pastor",
-      description: "Pastor Grace has a special calling to minister to children and families. Her creative approach to teaching makes God's word come alive for our little ones.",
-      email: "pastor.grace@victorycentrechurch.org",
-      phone: "+254 745 678 901"
+      name: "Eld. Jane",
+      title: "Elder"
     }
   ];
 
@@ -65,20 +54,11 @@ const Ministers = () => {
                   {minister.title}
                 </p>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  {minister.description}
-                </p>
-                
-                <div className="space-y-2 text-sm text-muted-foreground">
-                  <div className="flex items-center justify-center space-x-2">
-                    <span>📧</span>
-                    <span>{minister.email}</span>
-                  </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <span>📱</span>
-                    <span>{minister.phone}</span>
-                  </div>
-                </div>
+                {minister.qualification && (
+                  <p className="text-sm text-muted-foreground">
+                    {minister.qualification}
+                  </p>
+                )}
               </div>
             </Card>
           ))}
