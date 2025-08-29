@@ -1,9 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-
 const Services = () => {
-  return (
-    <section id="services" className="py-20 bg-background">
+  return <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
@@ -20,21 +18,15 @@ const Services = () => {
               <h3 className="text-2xl font-bold text-primary mb-4">Sunday Worship</h3>
               <div className="space-y-4 mb-6">
                 <div>
-                  <p className="text-lg font-semibold text-foreground">1st Service Bible Study</p>
-                  <p className="text-muted-foreground">9:00 AM - 10:00 AM</p>
-                </div>
-                <div>
-                  <p className="text-lg font-semibold text-foreground">Main Service</p>
-                  <p className="text-muted-foreground">10:00 AM - 12:30 PM</p>
+                  <p className="text-lg font-semibold text-foreground">Morning Service</p>
+                  <p className="text-muted-foreground">9:00 AM - 10:30 AM</p>
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-foreground">Evening Service</p>
                   <p className="text-muted-foreground">6:00 PM - 7:30 PM</p>
                 </div>
               </div>
-              <p className="text-muted-foreground mb-6">
-                Dynamic worship, inspiring messages, and fellowship for the whole family
-              </p>
+              
               <Button variant="default" className="w-full">
                 Plan Your Visit
               </Button>
@@ -51,7 +43,7 @@ const Services = () => {
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-foreground">Prayer Meeting</p>
-                  <p className="text-muted-foreground">Thursday 9:00 AM - 6:00 PM</p>
+                  <p className="text-muted-foreground">Friday 6:30 PM</p>
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">
@@ -77,8 +69,6 @@ const Services = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Services;
