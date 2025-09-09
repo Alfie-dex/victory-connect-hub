@@ -2,16 +2,17 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const Gallery = () => {
-  // Sample placeholder images - these would be replaced with actual church photos
   const photos = [
-    { id: 1, title: "Sunday Worship Service", category: "worship" },
-    { id: 2, title: "Community Outreach", category: "outreach" },
-    { id: 3, title: "Youth Fellowship", category: "youth" },
-    { id: 4, title: "Bible Study Group", category: "study" },
-    { id: 5, title: "Church Anniversary", category: "events" },
-    { id: 6, title: "Baptism Ceremony", category: "baptism" },
-    { id: 7, title: "Christmas Celebration", category: "events" },
-    { id: 8, title: "Prayer Meeting", category: "prayer" },
+    { id: 1, title: "Prayer Ministry", category: "prayer", image: "/lovable-uploads/4491d631-32c5-4568-889f-69a97610393f.png" },
+    { id: 2, title: "Youth Fellowship - Suswa Trip", category: "youth", image: "/lovable-uploads/8977edd6-03d3-4207-a807-7478bfcce99d.png" },
+    { id: 3, title: "Sunday Worship Service", category: "worship", image: "/lovable-uploads/ddf78919-3092-441b-a516-f9425ff1da0e.png" },
+    { id: 4, title: "Worship Team Ministry", category: "worship", image: "/lovable-uploads/86bfaad7-7adb-4eae-b4c3-75616b2da5e5.png" },
+    { id: 5, title: "Praise & Worship", category: "worship", image: "/lovable-uploads/85d0e2a9-727b-4a7f-abf1-5fd7204b4acc.png" },
+    { id: 6, title: "Youth Prayer Ministry", category: "prayer", image: "/lovable-uploads/a3508ada-8f34-4614-b5c3-cc25f0b96508.png" },
+    { id: 7, title: "Pastor Preaching", category: "worship", image: "/lovable-uploads/df609f71-a243-4b00-afd9-32cee04b68e1.png" },
+    { id: 8, title: "Fellowship & Ministry", category: "fellowship", image: "/lovable-uploads/54a6b81e-87dd-4a97-ad8d-5591f3d549e5.png" },
+    { id: 9, title: "Pastoral Care", category: "prayer", image: "/lovable-uploads/abefd033-fca7-4ccc-8bbe-0256581f8a6c.png" },
+    { id: 10, title: "Ministry to Elders", category: "prayer", image: "/lovable-uploads/541be4c2-0c22-4ea1-aecf-693ed423f7d6.png" },
   ];
 
   const videos = [
@@ -40,10 +41,11 @@ const Gallery = () => {
             {photos.map((photo) => (
               <Card key={photo.id} className="overflow-hidden shadow-elegant hover:shadow-glow transition-smooth group">
                 <div className="aspect-square bg-gradient-section relative overflow-hidden">
-                  {/* Placeholder for actual photos */}
-                  <div className="w-full h-full bg-gradient-primary/20 flex items-center justify-center">
-                    <span className="text-4xl">📸</span>
-                  </div>
+                  <img 
+                    src={photo.image} 
+                    alt={photo.title}
+                    className="w-full h-full object-cover"
+                  />
                   <div className="absolute inset-0 bg-gradient-hero opacity-0 group-hover:opacity-80 transition-smooth flex items-center justify-center">
                     <Button variant="worship" size="sm">
                       View Photo
