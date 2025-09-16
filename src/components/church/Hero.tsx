@@ -1,14 +1,11 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/church-hero.jpg";
-
 const Hero = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }} />
       
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-hero" />
@@ -25,9 +22,7 @@ const Hero = () => {
           Where Believers Are Made Disciples Indeed
         </p>
         
-        <p className="text-lg mb-12 text-primary-foreground/80 max-w-2xl mx-auto animate-slide-up">
-          Join us in worship, fellowship, and service as we grow together in faith and make a difference in our community.
-        </p>
+        <p className="text-lg mb-12 text-primary-foreground/80 max-w-2xl mx-auto animate-slide-up">Join us in worship, fellowship, and service as we grow together as true disciples of Christ and make a difference in our community.</p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
           <Button variant="hero" size="lg">
@@ -38,8 +33,6 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
