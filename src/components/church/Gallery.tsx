@@ -13,6 +13,9 @@ const Gallery = () => {
     { id: 8, title: "Fellowship & Ministry", category: "fellowship", image: "/lovable-uploads/54a6b81e-87dd-4a97-ad8d-5591f3d549e5.png" },
     { id: 9, title: "Pastoral Care", category: "prayer", image: "/lovable-uploads/abefd033-fca7-4ccc-8bbe-0256581f8a6c.png" },
     { id: 10, title: "Ministry to Elders", category: "prayer", image: "/lovable-uploads/541be4c2-0c22-4ea1-aecf-693ed423f7d6.png" },
+    { id: 11, title: "Baptism", category: "baptism", image: "/lovable-uploads/baptism-ceremony.jpg" },
+    { id: 12, title: "Building spiritual capacity of the young generation", category: "youth", image: "/lovable-uploads/youth-ministry.jpg" },
+    { id: 13, title: "Training young ministers for the Work", category: "training", image: "/lovable-uploads/minister-training.jpg" },
   ];
 
   const videos = [
