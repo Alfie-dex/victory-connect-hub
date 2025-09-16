@@ -41,9 +41,19 @@ const Ministers = () => {
           {ministers.map((minister) => (
             <Card key={minister.id} className="p-8 shadow-elegant hover:shadow-glow transition-smooth">
               <div className="flex flex-col items-center text-center">
-                {/* Placeholder for minister photo */}
-                <div className="w-32 h-32 bg-gradient-primary rounded-full flex items-center justify-center mb-6 shadow-elegant">
-                  <span className="text-4xl text-primary-foreground">👤</span>
+                {/* Minister photo */}
+                <div className="w-32 h-32 rounded-full overflow-hidden mb-6 shadow-elegant">
+                  {minister.id === 1 ? (
+                    <img 
+                      src="/lovable-uploads/rev-peter-kinuthia.jpg" 
+                      alt={minister.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-primary flex items-center justify-center">
+                      <span className="text-4xl text-primary-foreground">👤</span>
+                    </div>
+                  )}
                 </div>
                 
                 <h3 className="text-2xl font-bold text-primary mb-2">
