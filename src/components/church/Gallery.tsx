@@ -9,7 +9,7 @@ const Gallery = () => {
     { id: 4, title: "Worship Team Ministry", category: "worship", image: "/lovable-uploads/86bfaad7-7adb-4eae-b4c3-75616b2da5e5.png" },
     { id: 5, title: "Praise & Worship", category: "worship", image: "/lovable-uploads/85d0e2a9-727b-4a7f-abf1-5fd7204b4acc.png" },
     { id: 6, title: "Youth Prayer Ministry", category: "prayer", image: "/lovable-uploads/a3508ada-8f34-4614-b5c3-cc25f0b96508.png" },
-    { id: 7, title: "Pastor Preaching", category: "worship", image: "/lovable-uploads/df609f71-a243-4b00-afd9-32cee04b68e1.png" },
+    { id: 7, title: "True Foundational Teachings", category: "worship", image: "/lovable-uploads/df609f71-a243-4b00-afd9-32cee04b68e1.png" },
     { id: 8, title: "Fellowship & Ministry", category: "fellowship", image: "/lovable-uploads/54a6b81e-87dd-4a97-ad8d-5591f3d549e5.png" },
     { id: 9, title: "Pastoral Care", category: "prayer", image: "/lovable-uploads/abefd033-fca7-4ccc-8bbe-0256581f8a6c.png" },
     { id: 10, title: "Ministry to Elders", category: "prayer", image: "/lovable-uploads/541be4c2-0c22-4ea1-aecf-693ed423f7d6.png" },
