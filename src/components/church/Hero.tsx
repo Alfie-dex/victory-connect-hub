@@ -22,7 +22,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 animate-slide-up">
-          Where Faith Meets Community
+          Where Believers Are Made Disciples Indeed
         </p>
         
         <p className="text-lg mb-12 text-primary-foreground/80 max-w-2xl mx-auto animate-slide-up">

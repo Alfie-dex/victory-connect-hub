@@ -79,8 +79,7 @@ const Ministers = () => {
           <div className="text-center">
             <h3 className="text-2xl font-bold text-primary mb-6">Our Leadership Philosophy</h3>
             <p className="text-lg text-foreground leading-relaxed mb-6">
-              "We believe in servant leadership that follows the example of Jesus Christ. Our ministers are called to 
-              serve, guide, and nurture the spiritual growth of our congregation while building strong community bonds."
+              "Our leadership Philosophy centers on serving Christ by sharing the Gospel and making disciples through principled leadership, embodying qualities like humility, integrity, love, and servant leadership. The philosophy integrates both edification (building up the believers) and evangelism (reaching out to the lost) through culturally relevant and theologically accurate presentations of the Gospel."
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>

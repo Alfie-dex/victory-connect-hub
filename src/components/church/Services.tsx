@@ -15,15 +15,23 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="p-8 shadow-elegant">
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-primary mb-4">Sunday Worship</h3>
+              <h3 className="text-2xl font-bold text-primary mb-4">Sunday Worship Service Order</h3>
               <div className="space-y-4 mb-6">
                 <div>
-                  <p className="text-lg font-semibold text-foreground">Morning Service</p>
-                  <p className="text-muted-foreground">9:00 AM - 10:30 AM</p>
+                  <p className="text-lg font-semibold text-foreground">Morning Glory</p>
+                  <p className="text-muted-foreground">5:45 AM - 7:45 AM</p>
                 </div>
                 <div>
-                  <p className="text-lg font-semibold text-foreground">Evening Service</p>
-                  <p className="text-muted-foreground">6:00 PM - 7:30 PM</p>
+                  <p className="text-lg font-semibold text-foreground">Leaders Prayer</p>
+                  <p className="text-muted-foreground">8:00 AM - 9:00 AM</p>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold text-foreground">Bible Study</p>
+                  <p className="text-muted-foreground">9:00 AM - 10:00 AM</p>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold text-foreground">Main Service</p>
+                  <p className="text-muted-foreground">10:00 AM - 12:45 PM</p>
                 </div>
               </div>
               
@@ -43,7 +51,7 @@ const Services = () => {
                 </div>
                 <div>
                   <p className="text-lg font-semibold text-foreground">Prayer Meeting</p>
-                  <p className="text-muted-foreground">Friday 6:30 PM</p>
+                  <p className="text-muted-foreground">Thursday 9:00 AM - 6:00 PM</p>
                 </div>
               </div>
               <p className="text-muted-foreground mb-6">

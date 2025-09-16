@@ -5,7 +5,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">VICTORY CENTRE CHURCH</h3>
             <p className="text-primary-foreground/80 mb-4">
-              A place where faith meets community, and lives are transformed by God's love.
+              A place where believers are made disciples indeed, and lives are transformed by God's love.
             </p>
             <p className="text-primary-foreground/60">
               "For where two or three gather in my name, there am I with them." - Matthew 18:20
