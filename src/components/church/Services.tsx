@@ -64,6 +64,72 @@ const Services = () => {
           </Card>
         </div>
 
+        {/* Weekly Services */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-primary mb-8 text-center">Weekly Services</h3>
+          <Card className="p-8 max-w-4xl mx-auto shadow-elegant">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div>
+                  <h4 className="text-lg font-bold text-primary mb-4">Daily Services (Monday - Friday)</h4>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="font-semibold text-foreground">Lunch Hour Services</p>
+                      <p className="text-muted-foreground">12:45 PM - 1:45 PM</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-foreground">Prayer Hour</p>
+                      <p className="text-muted-foreground">5:00 PM - 6:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-primary mb-4">Tuesday</h4>
+                  <div>
+                    <p className="font-semibold text-foreground">Bible Study</p>
+                    <p className="text-muted-foreground">6:00 PM - 7:00 PM</p>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-primary mb-4">Wednesday</h4>
+                  <div>
+                    <p className="font-semibold text-foreground">Home Churches</p>
+                    <p className="text-muted-foreground">7:00 PM - 8:00 PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-6">
+                <div>
+                  <h4 className="text-lg font-bold text-primary mb-4">Thursday</h4>
+                  <div>
+                    <p className="font-semibold text-foreground">Pastoral Prayer Day</p>
+                    <p className="text-muted-foreground">11:00 AM - 4:00 PM</p>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-primary mb-4">Friday</h4>
+                  <div>
+                    <p className="font-semibold text-foreground">Choir Practice</p>
+                    <p className="text-muted-foreground">5:00 PM - 7:00 PM</p>
+                  </div>
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-primary mb-4">Saturday</h4>
+                  <div>
+                    <p className="font-semibold text-foreground">P&W Practice</p>
+                    <p className="text-muted-foreground">5:00 PM - 7:00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Card>
+        </div>
+
         <div className="mt-16 text-center">
           <Card className="p-8 max-w-2xl mx-auto shadow-elegant bg-gradient-section">
             <h3 className="text-2xl font-bold text-primary mb-4">Special Events</h3>
